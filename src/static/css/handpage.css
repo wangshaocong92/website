@@ -1,0 +1,56 @@
+#homepage{
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1577363260920&di=6d1d6867f9f4817d00233b2120efa9c1&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F1ea86910131747ebec9856c915b846cff89917fb.jpg);
+    background-size: 100%;
+}
+#bottom_layer {
+    width: 100%;
+    min-width: 1250px;
+    position: fixed;
+    z-index: 302;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    overflow: hidden;
+    color: #999;
+    zoom: 1;
+    margin: 0;
+    background-color:black;
+    text-align: left;
+    line-height: 40px;
+}
+
+#s_top_wrap {
+    position: absolute;
+    z-index: 99;
+    min-width: 1000px;
+    width: 100%;
+}
+
+.foot {
+    font-family: "Microsoft YaHei UI";
+    font-size: 13px;
+
+}
+#bottom_layer .link ,.rightLink {
+    margin: 10px;
+    text-decoration-line: none;
+    color: #999;
+}
+
+#bottom_layer .link:hover{
+    color: slategray;
+    cursor: pointer;
+}
+
+#bottom_layer .rightLink:hover{
+    color: slategray;
+    cursor: pointer;
+}
+
+#bottom_layer .rightLink{
+    float: right;
+    top: -10px;
+    position: relative;
+}
+
+
