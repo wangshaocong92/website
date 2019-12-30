@@ -65,13 +65,14 @@ func timer() {
 }
 
 func log_dir()string{
-	if LogDir==""{
-		return "../log/"
-	}else{
-		if string(LogDir[len(LogDir)-1:])=="/"{
-			return LogDir
-		}else{
-			return LogDir + "/"
-		}
-	}
+	return "/j/go-project/website/log/"
+	//if LogDir==""{
+	//	return "../log/"
+	//}else{
+	//	if string(LogDir[len(LogDir)-1:])=="/"{
+	//		return LogDir
+	//	}else{
+	//		return LogDir + "/"
+	//	}
+	//}
 }

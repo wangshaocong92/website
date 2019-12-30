@@ -5,29 +5,34 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./handpage.css">
-    <title>Home only belong to shaocong.wang</title>
+    <link rel="stylesheet" href="../css/handpage.css">
+    <title>Home Page</title>
 </head>
 <body id="homepage">
     <div id="s_top_wrap" class="head"></div>
     <div class="body">
-        <form action="http://shaocongwang.top/inquire">
-            <div>
-            <ul>
-                <li></li>
-            </ul>
-            <ul>
-                <li>
-                    <select name="selectEngine" id="engine">
-                        <option value="baidu"><img src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top-e3b63a0b1b.png" alt="百度一下，你就知道"></option>
-                        <option value="google"><img src="" alt=""></option>
-                        <option value="bing"><img src="" alt=""></option>
-                    </select>
-                </li>
-                <li><input type="text"> </li>
-                <li><button type="submit"></button></li>
-            </ul>
+        <div class="select_icon"><a href="https://www.baidu.com/s?wd=%E4%BB%8A%E6%97%A5%E6%96%B0%E9%B2%9C%E4%BA%8B&tn=SE_Pclogo_6ysd4c7a&sa=ire_dl_gh_logo&rsv_dl=igh_logo_pc">
+                <img src="../image/baidu_logo.png" alt="百度"></a></div>
+        <form action="http://shaocongwang.top/inquire" method="post">
+            <div class="select_form">
+                <ul class="select_ul">
+                    <li>
+                        <select name="select_engine" id="select_engine">
+                            <option value="baidu">百度</option>
+                            <option value="google">谷歌</option>
+                            <option value="bing">必应</option>
+                        </select>
+                    </li>
+                    <li>
+                        <input name="key" type="text">
+                    </li>
+                    <li>
+                        <button type="submit">搜索一下</button>
+                    </li>
+                </ul>
             </div>
+        </form>
+    </div>
 
 
         </form>
