@@ -8,23 +8,23 @@
     <link rel="stylesheet" href="../css/handpage.css">
     <title>Home Page</title>
 </head>
-<body id="homepage">
+<body id="homepage" onload="changeBackgroude()">
     <div id="s_top_wrap" class="head"></div>
     <div class="body">
-        <div class="select_icon"><a href="https://www.baidu.com/s?wd=%E4%BB%8A%E6%97%A5%E6%96%B0%E9%B2%9C%E4%BA%8B&tn=SE_Pclogo_6ysd4c7a&sa=ire_dl_gh_logo&rsv_dl=igh_logo_pc">
-                <img src="../image/baidu_logo.png" alt="百度"></a></div>
+        <div class="select_icon"><a id="icon_href" href="" target="_blank">
+                <img id="icon_img" src="" alt=""></a></div>
         <form action="http://shaocongwang.top/inquire" method="post">
             <div class="select_form">
                 <ul class="select_ul">
                     <li>
-                        <select name="select_engine" id="select_engine">
+                        <select name="select_engine" id="select_engine" onchange="changeBackgroude()">
                             <option value="baidu">百度</option>
                             <option value="google">谷歌</option>
                             <option value="bing">必应</option>
                         </select>
                     </li>
                     <li>
-                        <input name="key" type="text">
+                        <input name="key" type="text" autocomplete="off">
                     </li>
                     <li>
                         <button type="submit">搜索一下</button>
@@ -41,5 +41,8 @@
         <a class="link" target = "_black" href="https://www.baidu.com/cache/sethelp/index.html">设为首页</a>
         <a class="rightLink" target = "_black" href="http://beian.miit.gov.cn/">京ICP备19054248号</a>
     </div>
+
+    <script type="text/javascript" src="../js/handpage.js">
+    </script>
 </body>
 </html>
