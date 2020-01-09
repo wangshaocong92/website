@@ -3,6 +3,13 @@
     background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1577363260920&di=6d1d6867f9f4817d00233b2120efa9c1&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F1ea86910131747ebec9856c915b846cff89917fb.jpg);
     background-size: 100%;
 }
+
+#login_windows{
+    width: 300px;
+    height: 400px;
+    background-color: red;
+}
+
 .body{
    margin-bottom: 30%;
 }

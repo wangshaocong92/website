@@ -17,3 +17,8 @@ function changeBackgroude() {
         img.src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Bing_Logo_2016.svg/2000px-Bing_Logo_2016.svg.png";
     }
 }
+
+login_controler = document.getElementById('login_button')
+login_controler.onclick = function () {
+
+}
